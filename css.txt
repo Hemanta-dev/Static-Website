@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2e9f3;
+
+}
+header{
+    margin-left: 15px;
+    background-color: rgba(206, 195, 195, 0.755);
+}
+.main-title{
+    display:inline-block;
+    float:left;
+    margin-top:12px;
+    width:15%;
+}
+.main-title h4{
+    font-size: 40px;
+    font-family: New Century Schoolbook;
+}
+.menu-section{
+    display:inline-block;
+    float:right;
+    margin-top: 23px;
+    width:85%;
+}
+.menu-section li{
+    list-style:none;
+    display:inline-block;
+
+}
+.menu-section li a{
+    text-decoration: none;
+    color:black;
+    margin-left:50px;
+    margin-top:0;
+    font-size: 17px;
+}
+.menu-section li:nth-child(6) a{
+    margin-right: 330px;
+}
+.menu-section li:nth-child(7) a{
+    background-color: black;
+    color:white;
+    padding:15px 25px 15px 25px;
+    border: 1px solid transparent;
+   
+}
+.menu-section li:nth-child(7) a:hover{
+    background-color:transparent;
+    border-color:black;
+    color:black;
+    transition: all linear 0.3s;
+  
+}
+
+.menu-section li:nth-child(7) a i{
+    background-color:transparent;
+}
+.menu-section li:nth-child(7) a:hover i{
+    background-color: transparent;
+
+}
+
+.menu-section li:last-child a {
+    background-color: white;
+    height:50px;
+    width: 50px;
+    margin-left:10px;
+    border:1px solid transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+    
+}
+.menu-section li:last-child a:hover{
+    background-color: transparent;
+    color:white;
+    border-color: white;
+
+
+}
+.menu-section li:last-child a span{
+    display:inline-block;
+    height:4px;
+    width:28px;
+    background-color: black;
+    border-radius: 3px;
+    margin:3px 0;
+   
+   
+  
+}
+.menu-section li:last-child a:hover span:first-child{
+    display:inline-block;
+    height: 4px;
+    width: 20px;
+    background-color: white;
+    border-radius:3px;
+
+}
+ .menu-section li:last-child a:hover span:last-child{
+    display:inline-block;
+    height:4px;
+    width:28px;
+    background-color: white;
+    border-radius: 3px;
+}
+061504146
+.container-tab ul li:first-child:hover{
+    background-color: black;
+}
+.container-tab ul li:first-child:hover a{
+    color:white;
+}
+
+
+ <div id="menu3" class="tab-pane fade">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e1.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-apple"></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e2.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-amazon"></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e3.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-android"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e4.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-bluetooth-b"></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e5.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="exhibition-img">
+                      <img src="./image/e6.jpg" />
+                    </div>
+                    <div class="exhibition-icon">
+                      <i class="fa fa-hashtag"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
